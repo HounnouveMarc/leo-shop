@@ -1,0 +1,10 @@
+{
+    "name": "iPhone 12",
+    "price": 909,
+    "condition": "Neuf",
+    "storage": "128 Go",
+    "color": "Bleu",
+    "description": "L'iPhone 12 intègre la vitesse de la 5G, la puce A14 Bionic, un superbe écran Super Retina XDR bord à bord et la protection Ceramic Shield.",
+    "featured": true,
+    "images": ["1.jpeg", "2.jpeg", "3.jpeg"]
+  }

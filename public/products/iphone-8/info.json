@@ -1,0 +1,10 @@
+{
+    "name": "iPhone 8",
+    "price": 809,
+    "condition": "Neuf",
+    "storage": "64 Go",
+    "color": "Argent",
+    "description": "L'iPhone 8 arbore un dos en verre élégant permettant la charge sans fil, un écran Retina HD avec True Tone et la puissante puce A11 Bionic.",
+    "featured": false,
+    "images": ["1.jpeg", "2.jpeg", "3.jpeg"]
+  }

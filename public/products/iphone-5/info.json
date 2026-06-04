@@ -1,0 +1,10 @@
+  {
+    "name": "iPhone 5",
+    "price": 349,
+    "condition": "Neuf",
+    "storage": "16 Go",
+    "color": "Noir et Ardoise",
+    "description": "L'iPhone 5 introduit un Ã©cran Retina plus grand de 4 pouces, un design en aluminium ultra-fin et la connectivitÃ© 4G LTE, propulsÃ© par la puce A6.",
+    "featured": false,
+    "images": ["1.jpeg", "2.jpeg", "3.jpeg"]
+  }

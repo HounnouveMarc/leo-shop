@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background-color: #111111;
+  color: #F5F5F5;
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #111111; }
+::-webkit-scrollbar-thumb { background: #C9A227; border-radius: 3px; }
+
+/* Boutons principaux */
+.btn-gold {
+  background: linear-gradient(135deg, #C9A227 0%, #e8c547 50%, #C9A227 100%);
+  color: #111111;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 0.75rem 2rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(201,162,39,0.25);
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.btn-gold:hover {
+  box-shadow: 0 6px 30px rgba(201,162,39,0.4);
+  transform: translateY(-1px);
+}
+.btn-gold:active { transform: scale(0.97); }
+
+/* Boutons outline */
+.btn-outline {
+  background: transparent;
+  color: #F5F5F5;
+  font-weight: 400;
+  border-radius: 50px;
+  padding: 0.75rem 2rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.15);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.btn-outline:hover {
+  border-color: rgba(201,162,39,0.5);
+  color: #C9A227;
+  background: rgba(201,162,39,0.05);
+}
+
+/* Bouton "Voir plus" discret */
+.btn-see-more {
+  background: transparent;
+  color: #C9A227;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 0.65rem 2.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(201,162,39,0.25);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.btn-see-more:hover {
+  border-color: rgba(201,162,39,0.6);
+  background: rgba(201,162,39,0.06);
+  letter-spacing: 0.15em;
+}
+
+/* Cards */
+.product-card {
+  background: #1A1A1A;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.04);
+  transition: all 0.4s ease;
+}
+.product-card:hover {
+  border-color: rgba(201,162,39,0.2);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(201,162,39,0.08);
+}
+
+/* Glow subtil */
+.gold-glow { box-shadow: 0 0 40px rgba(201,162,39,0.08); }
+
+/* Mobile spacing */
+@media (max-width: 768px) {
+  .mobile-section { padding: 2rem 1.25rem; }
+  .mobile-card-grid { gap: 1rem; }
+}

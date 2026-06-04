@@ -1,0 +1,10 @@
+ {
+    "name": "iPhone 6",
+    "price": 639,
+    "condition": "Neuf",
+    "storage": "64 Go",
+    "color": "Gris SidÃ©ral",
+    "description": "L'iPhone 6 marque un tournant avec son grand Ã©cran Retina HD de 4,7 pouces, un design arrondi Ã©lÃ©gant, la puce A8 et l'introduction d'Apple Pay.",
+    "featured": false,
+    "images": ["1.jpeg", "2.jpeg", "3.jpeg"]
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "iPhone 13",
+    "price": 909,
+    "condition": "Neuf",
+    "storage": "128 Go",
+    "color": "Minuit",
+    "description": "L'iPhone 13 dispose du système du double appareil photo le plus avancé sur iPhone, de la puce A15 Bionic et d'un gain d'autonomie impressionnant.",
+    "featured": true,
+    "images": ["1.jpeg", "2.jpeg", "3.jpeg"]
+  }

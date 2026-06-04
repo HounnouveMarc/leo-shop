@@ -1,0 +1,10 @@
+{
+    "name": "iPhone 14",
+    "price": 1019,
+    "condition": "Neuf",
+    "storage": "128 Go",
+    "color": "Lumière Stellaire",
+    "description": "L'iPhone 14 propose une autonomie d'une journée entière, le mode Action pour des vidéos ultra-stables et des fonctionnalités de sécurité inédites comme la détection des accidents.",
+    "featured": true,
+    "images": ["1.jpeg", "2.jpeg", "3.jpeg"]
+  }
